@@ -1,3 +1,4 @@
+// file is used by the node application
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -11,6 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // Connect to MongoDB
 mongoose
   .connect(
+    // mongo is the name of the container
     'mongodb://mongo:27017/docker-node-mongo',
     { useNewUrlParser: true }
   )

@@ -1,2 +1,4 @@
+# acts like a git ignore file e.g. ignores files and directories fir a commit
 node_modules
 npm-debug.log
+
